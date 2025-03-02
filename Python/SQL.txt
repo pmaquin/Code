@@ -183,3 +183,24 @@ Coleção
 - `POLYGON`
 - `MULTIPOLYGON`
 
+
+
+Atualizar registro
+UPDATE tabela
+set nome = 'Java', carga = '40', ano = '2015'
+WHERE idcurso = '5'
+LIMIT 1;
+
+select * from cursos;
+
+
+
+Deletar registro
+DELETE FROM tabela
+WHERE id = 'ID'
+LIMIT 0;
+
+
+
+Apagar todos os registros
+TRUNCATE TABLE cursos;
