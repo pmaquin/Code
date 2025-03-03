@@ -1,0 +1,29 @@
+Principais características do Java
+
+Blocos de código
+Controle de Fluxo:
+    Fluxograma do codigo, if ou else.
+Tratamento de Exceções
+    Fluxograma do codigo, if ou else.
+Comentários:
+    Documentação ou uma orientação.
+Case sensitive:
+    Tem diferenciação entre letras minusculas e maiuscula.
+Estrutura de programa
+Tipagem estática
+Classes e métodos
+
+
+Tipos de dados
+Começa com letras minusculas é nativo do JVM, não puxa de bibliotecas (Dados primitivos não são recomendados).
+Números inteiros:
+    byte
+    short
+    int
+    long
+Números reais:
+    float
+    duble
+Lógica
+    char
+    boolean
