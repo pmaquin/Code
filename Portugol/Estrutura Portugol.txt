@@ -11,8 +11,10 @@ Algoritmo "IMC"
 
 Var
 // Seção de Declarações das variáveis
-peso, altura, imc: real
-op, i, ee, rr: inteiro
+soma, media, peso, altura, imc: real
+contadorLoop1, op, i, ee, rr: inteiro
+nomes: vetor [1..5] de caracter
+notas: vetor [1..5] de real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -75,5 +77,23 @@ Inicio
           ESCREVAL("Valor de RR: ", rr, " REPITA")
           rr <- rr + 1
     ATE rr >= 5
+
+soma <- 0
+
+PARA contadorLoop1 DE 1 ATE 5 FACA
+     ESCREVA("Qual o nome do aluno", contadorLoop1, " de 5:")
+     LEIA(nomes[contadorLoop1])
+     ESCREVA("Qual a nota do aluno", contadorLoop1, " de 5:")
+     LEIA(notas[contadorLoop1])
+     soma <- soma + notas[contadorLoop1]
+FIMPARA
+
+PARA contadorLoop1 DE 1 ATE 5 FACA
+     ESCREVAL("O aluno ", nomes[contadorLoop1], " tirou a nota:", notas[contadorLoop1])
+FIMPARA
+
+media <- soma / contadorLoop1
+ESCREVA("A media de Notas das Turmas é: ", media)
+
 
 Fimalgoritmo
