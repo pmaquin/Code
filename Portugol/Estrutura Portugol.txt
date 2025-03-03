@@ -1,17 +1,45 @@
 Exemplo de estutura em Portugol para eu não esquecer
 
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+
+
+Algoritmo "IMC"
+// Disciplina   : Criando Aplicações e Sistema
+// Professor   :
+// Descrição   : Estudando Portugol
+// Autor(a)    : Paulo Aquino
 // Data atual  : 03/03/2025
+
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
+peso, altura, imc: real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
+    ESCREVA("Qual o seu peso? ")
+    LEIA(peso)
 
+    ESCREVA("Qaul a sua altura? ")
+    LEIA(altura)
+
+    imc <- peso / (altura * altura)
+
+    SE (imc < 17.9) ENTAO
+        ESCREVA("Seu imc é: ", imc:2, " e é consigo Abaixo do Peso Normal")
+        SENAO
+            SE (imc > 18) E (imc < 24.9) ENTAO
+                ESCREVA("Seu imc é: ", imc:2, " e é considerado Peso Normal")
+        SENAO
+            SE (imc > 25) E (imc < 29.9) ENTAO
+                ESCREVA("Seu imc é: ", imc:2, " e é considerado Sobrepeso")
+        SENAO
+            SE (imc > 30) E (imc < 34.9) ENTAO
+            ESCREVA("Seu imc é: ", imc:2, " e é considerado Obesidade de Grau I")
+        SENAO
+            ESCREVA("Seu imc é: ", imc:2, " e é considerado Obesidade de Grau II, procure um médico")
+            FIMSE
+            FIMSE
+            FIMSE
+    FIMSE
 
 Fimalgoritmo
