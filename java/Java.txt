@@ -173,3 +173,11 @@ Para ler e escrever arquivos, podemos usar varias classes do pacote java.Isso
   FileWriter - escrita
   BufferedReader - Leitor ou leitura
   BufferedWriter - escrita
+
+Estrutura Condicionais
+Permitem a execução de diferentes blocos de código com base em condições especificas
+  if 
+  if-else
+  if-else aninhado
+    else
+      if
