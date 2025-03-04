@@ -110,3 +110,13 @@ de expressões condicionais e controle de fluxo.
 AND &&
 OR ||
 NOT ! 
+
+
+Operador ternario
+É uma forma de compacta de realizar uma operação condicional
+
+Permite a escolha entre dois valores com base na avaliação de uma condição.
+
+
+variavel atende a condição que está perguntando? Atende, então está no primeiro ponto.
+resultado = condição ? verdadeiro:falso;
