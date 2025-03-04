@@ -181,3 +181,25 @@ Permitem a execução de diferentes blocos de código com base em condições es
   if-else aninhado
     else
       if
+
+
+Estrutura de Seleção (Controle remoto)
+A estrutura switch é usada para selecionar um blodo de código a ser executado com base no valor de uma variavel.
+switch (variavel) {
+  case 1;
+  case 2;
+  ...
+  case n;
+}
+Se for dois tipos de teste usa if else
+Se for tres tipos de teste usa if else-if else
+Se for quatro ou mais usa switch
+
+Instruções de repetição
+Instruções são usada para executar um blodo de codigo varias cezes com base em uma determinada condição
+  for 
+    Percorrer um caminho - inicio, movimentação e condição de parada.
+  while
+    Enquanto essa condição for verdadeira faça esse bloco de codigo - não pode entrar em Loop, precisa ter uma condição de parada
+  do-while
+    Faça enquanto o enquanto for verdadeiro, vai fazer pelo menos uma vez.
