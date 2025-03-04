@@ -1,9 +1,8 @@
 package instrucoes;
 
-public class EstruturaVetores {
+public class ManipulacaoMatrizes {
     
     public static void main(String [] args) {
-
-
+        
     }
 }

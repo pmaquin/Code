@@ -203,3 +203,9 @@ Instruções são usada para executar um blodo de codigo varias cezes com base e
     Enquanto essa condição for verdadeira faça esse bloco de codigo - não pode entrar em Loop, precisa ter uma condição de parada
   do-while
     Faça enquanto o enquanto for verdadeiro, vai fazer pelo menos uma vez.
+
+
+Manipulação de Vetores
+Vetores ou Arrays são estruturas de dados que armazenam elementos de um mesmo tipo, permitindo o acesso aos elementos por meio de indices
+
+int [] numeros = {1, 2, 3, 4};
