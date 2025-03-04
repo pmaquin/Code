@@ -165,3 +165,11 @@ Entrada e saída de dados em Java cobrem uma ampla gama de operações, desde a 
 simples no console.
 
 Scanner + System = Leitura e escrita de dados! (Mais simples e pratico!)
+
+
+Manipulação de arquivos
+Para ler e escrever arquivos, podemos usar varias classes do pacote java.Isso
+  FileReader - Leitor ou leitura
+  FileWriter - escrita
+  BufferedReader - Leitor ou leitura
+  BufferedWriter - escrita
