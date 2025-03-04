@@ -75,3 +75,15 @@ Atribuição composto
     int x -= 1;
     int x *= 1;
     int x /= 1;
+
+
+Operadores Aritméticos
+    Operador
+    +   Adição
+    -   Subtração
+    *   Multiplicação
+    /   Divisão
+    **  Exponencial
+    %   Modulo
+    ++  Incrementar
+    --  Decrementar
