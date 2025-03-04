@@ -27,3 +27,51 @@ Números reais:
 Lógica
     char
     boolean
+
+
+Vetores
+É uma estrutura de dados fundamental em Java que permite armazenar valores do mesmo tipo, também conhecido como arrays.
+
+Declaração
+    int[] numbers;
+
+Inicialização:
+    int[] numbers = {1, 2, 3, 4, 5};
+
+Matrizes
+Em Java são vetores multidimentsionais que permitem armazenar dados em um estrutura de tabela.
+
+Declaração:
+    int[][] matrix;
+
+Inicialização
+    int[][] matrix =
+    {{1, 2, 3}
+     {4, 5, 6}
+     {7, 8, 9} };
+
+
+Estruturas de dados
+Arrays []
+Listas {}
+    ArrayList e LinkedList (bibliotecas)
+Pilhas
+    Stack
+Queue 
+HashSet e TreeSet
+HashMap e TreeMap
+
+
+Operadores de atibuição
+Os operadores de atribuiçãoem Java são usados para atribuir valores a variaveis
+Java oferece varios operadores de atribuição composto que combinam uma operação aritimética
+
+Atribuição simples
+=
+    int x = 1
+
+Atribuição composto
+    int x += 1;
+    int x -= 1;
+    int x *= 1;
+    int x /= 1;
