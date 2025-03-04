@@ -28,7 +28,14 @@ public class OperadoresAritmeticos {
         decremento--;
         System.out.println("Decremento: " + decremento);
 
+        double exponencial = Math.pow(2, 2);
+        System.out.println("Exponencial: " + exponencial);
 
+        double raiz = Math.sqrt(x);
+        System.out.println("Raiz quadrada de " + x + " é: " + raiz);
 
+        double absoluto = Math.abs(-15);
+        System.out.println("Valor absoluto de -15 é: " + absoluto);
+        
     }
 }

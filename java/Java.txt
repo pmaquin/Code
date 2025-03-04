@@ -22,8 +22,8 @@ Números inteiros:
     int
     long
 Números reais:
-    float
-    duble
+    float = float vai somente a 7 casa
+    double = tem mais precisão que float porque ele vai até a 16 casa
 Lógica
     char
     boolean
@@ -87,3 +87,26 @@ Operadores Aritméticos
     %   Modulo
     ++  Incrementar
     --  Decrementar
+
+Tabela Verdade
+É uma ferramenta usada na lógica proposicional para mostrar todas as possiveis combinações de valores verdadeiros e falsos de proposições lógicas e seus resultados.
+AND = &&
+OR = ||
+
+P | Q | P AND Q
+V   V   V
+V   F   F
+F   V   F 
+
+P | Q | P OR Q
+V   V   V
+F   V   V
+V   F   V
+F   F   F
+
+Operadores Lógicos
+Os operadores lógicos em Java são usados para combinar valores booleanos, ele são fundamentais para construção
+de expressões condicionais e controle de fluxo.
+AND &&
+OR ||
+NOT ! 
