@@ -1,6 +1,6 @@
 import java.util.Arrays; // Import necessário para Arrays.toString()
 
-public class Vetores {
+public class _Vetores {
     public static void main (String [] args) {
         int[] numbers = {1, 2, 3, 4, 5};
         int[] numeros = new int[5];
