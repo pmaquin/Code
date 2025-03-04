@@ -224,3 +224,33 @@ int[][] = {
 Instruções de controle de repetição
 break - encerrar imediatamente o bloco de codigo
 continue - codigo seja executado apartir do momento que for declarada
+
+Sintaxe Basica das Funções
+Funções são blocos de código que realizam tarefas especificas e pomde ser reutilizadas em diferentes partes do Programa
+  Funções tambem são chamadas métodos, a sintaxe inclui modificador de acesso, tipo de retorno, nome do metodo e lista de parametros(opcionais).
+
+    public tipoRetorno
+    nomeFuncao(parametros) {
+      // Bloco de código
+    }
+
+
+Procedimentos e Funções
+Função: Método que retorna um valor.
+  int soma (int a, int b) {
+    return a+b;
+  }
+
+Procedimento: Método que não retorna um valor (void)
+  void imprimir(String msg) {
+    System.out.println(msg);
+  }
+
+
+Passagem de parâmetros
+  Passagem de valor
+    Os parametros passados para a função são do tipo primitivo.
+      public soma(int a, int b) {};
+
+  Passagem por referencia
+    O parametro passado é a referencia de um objeto, e a função pode alterar valores livremente
