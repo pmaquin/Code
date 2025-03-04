@@ -209,3 +209,13 @@ Manipulação de Vetores
 Vetores ou Arrays são estruturas de dados que armazenam elementos de um mesmo tipo, permitindo o acesso aos elementos por meio de indices
 
 int [] numeros = {1, 2, 3, 4};
+
+
+Manipulação de Matrizes
+Matrizes são uma extensão dos vetores, uma matriz basicamento é um vertor de vetores
+
+int[][] = {
+  {1, 2, 3},
+  {4, 5, 6},
+  {7, 8, 9}
+};
