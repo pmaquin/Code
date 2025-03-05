@@ -1,6 +1,6 @@
 // package = PACOTE
 // pacote sempre é tudo minusculo
-package cursoemvideop;
+package cursoemvideo;
 
 // class = CLASSE
 // Começa com a Primeira Letra Maiuscula = MinhaClasse
