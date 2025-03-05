@@ -1,8 +1,15 @@
 package funcoes;
 
+
+// Classe simples para exemplo de objeto
+class Pessoa {
+    String nome;
+}
+
 public class PassagemDeParametros {
     
     // Método que tenta modificar um valor primitivo (passagem por valor)
+    // o método modificadorValor() é uma função que recebe um parametro int que é um tipo primitivo!
     public static void modificarValor(int numero) {
         numero = numero * 2; // Esta alteração não afetará a variavel original
         System.out.println("Dentro do método (valor primitivo): " + numero);
@@ -22,10 +29,10 @@ public class PassagemDeParametros {
     public static void main(String [] args) {
 
         //Passagem por valor primitivo
-        int numero = 10;
-        System.out.println("Antes do método (valor primitivo): " + numero);
-        modificarValor(numero);
-        System.out.println("Depois do método (valor primitivo): " + numero);
+        int meuNumero = 10;
+        System.out.println("Antes do método (valor primitivo): " + meuNumero);
+        modificarValor(meuNumero);
+        System.out.println("Depois do método (valor primitivo): " + meuNumero);
 
         System.out.println("\n--------");
 
@@ -40,9 +47,4 @@ public class PassagemDeParametros {
         reatribuirObjeto(pessoa);
         System.out.println("Após tentar reatribuir (objeto): " + pessoa.nome);
     }
-}
-
-// Classe simples para exemplo de objeto
-class Pessoa {
-    String nome;
 }
