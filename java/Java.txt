@@ -147,4 +147,6 @@ São funçoes que se chama a si mesma durante a execução
 
 
 Definição de Função Lambda
-É uma maneira concisa de implementar uma interface funcional com um unico metodo abstrato
+  É uma maneira concisa de implementar uma interface funcional com um unico metodo abstrato
+  A sintaxe de uma função lamba é bastante simples, é composta pelos parametros um operador lambda -> e o corpo da função
+    (parametros) -> {corpo da função};
