@@ -142,34 +142,11 @@ Java Characteristics
      String resultado = (idade >= 18) ? "Maior de idade" : "Menor de idade";
 
 
-
-Fundamentos de Entrada e Saída (Igual a porta, entra e sai!)
-Os fundamentos de entrada e saída de dados em Java envolvem a leitura de dados fornecidos pelo usuário
-e a escrita de dados para a saída.
-
-Para ler dados do usuário ou dispositivos.
-Saída de Dados
-Manipulação de Arquivos (API)
-    Para ler e escrever arquivos no sistema operacional ou navegador.
-
-Ler dados do console
-    Biblioteca Scanner
-
-Método efiente para ler texto do console ou de arquivos
-    BufferedReader
-
-Fluxo de saída padrão usado para imprimir dados no console
-    System.out.print("Hello, world!");
-
-Entrada e saída de dados em Java cobrem uma ampla gama de operações, desde a leitura e escrita de dados
-simples no console.
-
-Scanner + System = Leitura e escrita de dados! (Mais simples e pratico!)
+Funçoes recursivas
+São funçoes que se chama a si mesma durante a execução
 
 
-Manipulação de arquivos
-Para ler e escrever arquivos, podemos usar varias classes do pacote java.Isso
-  FileReader - Leitor ou leitura
-  FileWriter - escrita
-  BufferedReader - Leitor ou leitura
-  BufferedWriter - escrita
+Definição de Função Lambda
+  É uma maneira concisa de implementar uma interface funcional com um unico metodo abstrato
+  A sintaxe de uma função lamba é bastante simples, é composta pelos parametros um operador lambda -> e o corpo da função
+    (parametros) -> {corpo da função};
