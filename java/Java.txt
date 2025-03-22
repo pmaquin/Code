@@ -1,0 +1,152 @@
+Java Characteristics
+
+1. Blocos de código
+   - Blocos de código são definidos por chaves { }.
+
+2. Controle de Fluxo:
+   - Exemplo de uso de if e else:
+     if (a > 0) {
+         System.out.println("O valor de a é positivo");
+     } else {
+         System.out.println("O valor de a é negativo ou zero");
+     }
+
+3. Tratamento de Exceções:
+   - Exemplo de uso de try-catch:
+     try {
+         int[] numbers = {1, 2, 3};
+         System.out.println(numbers[5]); // Isso vai gerar um erro
+     } catch (ArrayIndexOutOfBoundsException e) {
+         System.out.println("Erro: Índice fora do limite do array");
+     }
+
+4. Comentários:
+   - Comentário de uma linha: // Este é um comentário
+   - Comentário de múltiplas linhas:
+     /* Este é um comentário
+        de múltiplas linhas. */
+
+5. Case Sensitive:
+   - Java diferencia letras maiúsculas de minúsculas.
+     Exemplo:
+     String texto = "Java"; // correto
+     // string texto = "Java"; // erro de compilação
+
+6. Estrutura de Programa:
+   - Java é estruturado em classes e métodos. O ponto de entrada principal é o método main.
+
+7. Tipagem Estática:
+   - Em Java, o tipo da variável é definido no momento da declaração.
+   Exemplo:
+   int numero = 10;
+
+8. Tipos de Dados:
+   - Números Inteiros:
+     byte b = 1;
+     short s = 100;
+     int i = 1000;
+     long l = 10000L;
+
+   - Números Reais:
+     float f = 10.5f; // float vai até 7 casas decimais
+     double d = 10.555555555555; // double tem mais precisão que o float
+
+   - Lógicos:
+     char c = 'A';
+     boolean isJavaFun = true;
+
+9. Vetores (Arrays):
+   - Declaração e inicialização de arrays:
+     int[] numbers = {1, 2, 3, 4, 5};
+
+10. Matrizes:
+   - Matrizes bidimensionais:
+     int[][] matrix = {
+         {1, 2, 3},
+         {4, 5, 6},
+         {7, 8, 9}
+     };
+
+11. Estruturas de Dados:
+   - Listas:
+     java.util.List<Integer> list = new java.util.ArrayList<>();
+     list.add(10);
+     list.add(20);
+
+   - Pilhas (Stack):
+     java.util.Stack<Integer> stack = new java.util.Stack<>();
+     stack.push(1);
+     stack.push(2);
+
+   - Filas (Queue):
+     java.util.Queue<Integer> queue = new java.util.LinkedList<>();
+     queue.add(10);
+     queue.add(20);
+
+   - Conjuntos (Set):
+     java.util.HashSet<Integer> hashSet = new java.util.HashSet<>();
+     hashSet.add(10);
+     hashSet.add(20);
+
+   - Mapas (Map):
+     java.util.Map<String, Integer> map = new java.util.HashMap<>();
+     map.put("Chave1", 100);
+     map.put("Chave2", 200);
+
+12. Operadores de Atribuição:
+   - Atribuição simples:
+     int x = 1;
+   - Atribuição composta:
+     x += 2; // x = x + 2
+     x -= 1; // x = x - 1
+     x *= 2; // x = x * 2
+     x /= 2; // x = x / 2
+
+13. Operadores Aritméticos:
+   - Adição: +
+   - Subtração: -
+   - Multiplicação: *
+   - Divisão: /
+   - Exponencial (não nativo em Java): Math.pow(a1, b1)
+   - Módulo: %
+   - Incremento: ++
+   - Decremento: --
+
+14. Tabela Verdade:
+   - Operadores lógicos:
+     AND: &&
+     OR: ||
+
+   - Exemplo de Tabela Verdade:
+     P | Q | P AND Q
+     V   V   V
+     V   F   F
+     F   V   F
+
+     P | Q | P OR Q
+     V   V   V
+     F   V   V
+     V   F   V
+     F   F   F
+
+15. Operadores Lógicos:
+   - AND: &&
+   - OR: ||
+   - NOT: !
+
+16. Operador Ternário:
+   - Compacta um if/else:
+     resultado = (condição) ? valorSeVerdadeiro : valorSeFalso;
+     Exemplo:
+     int idade = 20;
+     String resultado = (idade >= 18) ? "Maior de idade" : "Menor de idade";
+
+
+Funçoes recursivas
+São funçoes que se chama a si mesma durante a execução
+
+
+Definição de Função Lambda
+  É uma maneira concisa de implementar uma interface funcional com um unico metodo abstrato
+  A sintaxe de uma função lamba é bastante simples, é composta pelos parametros um operador lambda -> e o corpo da função
+    (parametros) -> {corpo da função};
